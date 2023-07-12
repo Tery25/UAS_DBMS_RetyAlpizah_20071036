@@ -1,4 +1,4 @@
-<h1>Data Pengeluaran Khory</h1>
+<h1>Data Pengeluaran</h1>
 
 <table border="1">
 
@@ -14,7 +14,7 @@
 
 <?php 
 $no=0;
- foreach ($pengeluaran_kt as $row) {
+ foreach ($pengeluaran_ra as $row) {
 $no++;
 ?>
 <tr>

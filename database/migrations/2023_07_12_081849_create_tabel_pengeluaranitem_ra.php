@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('t_pengeluaranitem_kt', function (Blueprint $table) {
+        Schema::create('t_pengeluaranitem_ra', function (Blueprint $table) {
             $table->integer('id')->primary();
             $table->string('nobk',10)->nullable();
             $table->string('barangid',10)->nullable();
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('t_pengeluaranitem_kt');
+        Schema::dropIfExists('t_pengeluaranitem_ra');
     }
 };

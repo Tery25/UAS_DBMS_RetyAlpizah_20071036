@@ -1,4 +1,4 @@
-<h1>Data Petugas Khory</h1>
+<h1>Data Petugas </h1>
 
 <table border="1">
 
@@ -14,7 +14,7 @@
 
 <?php 
 $no=0;
- foreach ($petugaskt as $row) {
+ foreach ($petugasra as $row) {
 $no++;
 ?>
 <tr>

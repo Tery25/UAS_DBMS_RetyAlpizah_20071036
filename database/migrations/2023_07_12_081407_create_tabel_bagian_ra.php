@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('t_bagian_kt', function (Blueprint $table) {
+        Schema::create('t_bagian_ra', function (Blueprint $table) {
             $table->string('bagianid',10)->primary();
             $table->string('namabagian',45)->nullable();
             $table->string('kepalabagian',45)->nullable();
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('t_bagian_kt');
+        Schema::dropIfExists('t_bagian_ra');
     }
 };

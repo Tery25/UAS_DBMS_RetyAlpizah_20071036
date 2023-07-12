@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class pengeluaranitem_ktController extends Controller
+class pengeluaranitem_raController extends Controller
 {
     function index(){
         //return('Ini adalah controller');
 
-        $pengeluaranitem_kt= \DB::table('t_pengeluaran_kt')->get();
-        $data = array('pengeluaranitem_kt' => $pengeluaranitem_kt);
+        $pengeluaranitem_ra= \DB::table('t_pengeluaranitem_ra')->get();
+        $data = array('pengeluaranitem_ra' => $pengeluaranitem_ra);
         return view ('pengeluaranitem/index', $data);
     }
 }

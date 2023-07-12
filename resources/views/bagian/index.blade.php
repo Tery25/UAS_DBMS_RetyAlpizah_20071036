@@ -1,4 +1,4 @@
-<h1>Data Bagian Khory</h1>
+<h1>Data Bagian</h1>
 
 <table border="1">
 
@@ -12,7 +12,7 @@
 
 <?php 
 $no=0;
- foreach ($bagian_kt as $row) {
+ foreach ($bagian_ra as $row) {
 $no++;
 ?>
 <tr>

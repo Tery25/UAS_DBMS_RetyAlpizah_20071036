@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('t_petugas_kt', function (Blueprint $table) {
+        Schema::create('t_petugas_ra', function (Blueprint $table) {
             $table->integer('petugasid')->primary();
             $table->string('namapetugas',35)->nullable();
             $table->string('alamat',45)->nullable();
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('t_petugas_kt');
+        Schema::dropIfExists('t_petugas_ra');
     }
 };

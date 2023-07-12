@@ -11,7 +11,7 @@
 
 <?php 
 $no=0;
- foreach ($pengeluaranitem_kt as $row) {
+ foreach ($pengeluaranitem_ra as $row) {
 $no++;
 ?>
 <tr>

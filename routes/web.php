@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('bagian_kt', 'App\Http\Controllers\bagian_ktController@index');
-Route::get('barang_kt', 'App\Http\Controllers\barang_ktController@index');
-Route::get('pengeluaran_kt', 'App\Http\Controllers\pengeluaran_ktController@index');
-Route::get('pengeluaranitem_kt', 'App\Http\Controllers\pengeluaranitem_ktController@index');
-Route::get('petugas_kt', 'App\Http\Controllers\petugas_ktController@index');
+Route::get('bagian_ra', 'App\Http\Controllers\bagian_raController@index');
+Route::get('barang_ra', 'App\Http\Controllers\barang_raController@index');
+Route::get('pengeluaran_ra', 'App\Http\Controllers\pengeluaran_raController@index');
+Route::get('pengeluaranitem_ra', 'App\Http\Controllers\pengeluaranitem_raController@index');
+Route::get('petugas_ra', 'App\Http\Controllers\petugas_raController@index');

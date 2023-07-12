@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('t_pengeluaran_kt', function (Blueprint $table) {
+        Schema::create('t_pengeluaran_ra', function (Blueprint $table) {
             $table->string('nobk',10)->primary();
             $table->date('tanggal')->nullable();
             $table->date('noreff')->nullable();
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('t_pengeluaran_kt');
+        Schema::dropIfExists('t_pengeluaran_ra');
     }
 };
